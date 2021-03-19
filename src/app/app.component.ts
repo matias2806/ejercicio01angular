@@ -15,6 +15,8 @@ export class AppComponent {
 limpiar(){
   this.numeroUno = 0;
   this.numeroDos = 0;
+  this.promedio = 0;
+  this.suma = 0;
 }
 calcular(){
   console.log("numero1 "+ this.numeroUno);
