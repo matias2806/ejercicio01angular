@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+
+<br><br>
+<label for="edadUno" style="padding-left: 10px; padding-right: 10px;">Edad numero 1</label>
+<input type="text" class="edadUno" id="edadUno" [(ngModel)]="numeroUno">
+<br>
+<label for="edadDos" style="padding-left: 10px; padding-right: 10px;">Edad numero 2</label>
+<input type="text" class="edadDos" id="edadDos" [(ngModel)]="numeroDos">
+<br>
+<hr>
+<br>
+<button id="btnLimpiar" (click)="limpiar()">Limpiar</button>
+<button id="btnCalcular" (click)="calcular()">Calcular</button>
+<br>
+<hr>
+<br>
+<label for="promedio" style="padding-left: 10px; padding-right: 10px;">Edad numero 1</label>
+<input type="text" id="promedio"  [(ngModel)]="promedio">
+<br>
+<label for="suma" style="padding-left: 10px; padding-right: 10px;">Edad numero 1</label>
+<input type="text" id="suma" [(ngModel)]="suma">
+<router-outlet></router-outlet>
